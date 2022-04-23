@@ -27,3 +27,5 @@ the game is over because LOSER got to 15 first, set a two-bit output called WHO 
 2’b01. If the game is over because WINNER got to 15 first, set WHO to 2’b10. WHO
 should start at 2’b00 and return to it after each game over.
 	- Then synchronously clear all the counters and start over. The game never ends
+
+4. Digital Design Project 2 : A Verilog implementation for PCI Bus and its synthesis (schematic.sch)
