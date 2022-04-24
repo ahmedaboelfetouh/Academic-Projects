@@ -29,4 +29,4 @@ should start at 2’b00 and return to it after each game over.
 	- Then synchronously clear all the counters and start over. The game never ends
 
 4. Digital Design Project 2 : A Verilog implementation for PCI Bus Target and its synthesis (schematic.sch)
-5. Compiler Project : Build a TINY Language Scanner and Parser in C++ with a GUI usingQT Widget.
+5. Compiler Project : Implementation of a TINY Language Scanner and Parser using C++ with a GUI using QT Widget.
