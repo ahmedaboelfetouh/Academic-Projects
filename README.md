@@ -43,15 +43,16 @@ should start at 2’b00 and return to it after each game over.
 			- Use a mobile-agent framework to implement the scenario provided in (i).
 			- Design an Application-Level Protocol (ALP) that models the interaction between the differentnodes in this system.
 			- Implement the ALP at each level of nodes using multi-threaded Java programming.
-	- Assignement 2 : 
-	- Assignement 3 : Assume we need to calculate the value of sin(z), which can be computed by the following formula:
-	𝑐𝑜𝑠(𝑥) = ∑(−1)^𝑘𝑥^2𝑘/(2𝑘)! from 𝑘=0 to  ∞
-	Write a C program that uses MPI parallelization to compute the value of cos(x) using the above 
-	formula. You need to get the upper value of i and the value of x from the user, where your 
-	program makes the computation by dividing i equally among the processes, it should use n
-	processes to do this computation, where n is provided as input by user. Then, it displays the 
-	computed value of cos(x). You need to display to the user the value of cos(x) and the time taken 
-	by the program to compute it. You need also, to do the sequential version of this computation to 
-	the same accuracy, compute the time you program takes in each case, and compare the time for 
-	parallel version to the one computed in sequential version. Also, you need to discuss the differences 
-	in these times as the number of computing processes changes.
+	
+	- Assignement 3 : 
+		- Assume we need to calculate the value of sin(z), which can be computed by the following formula:
+		𝑐𝑜𝑠(𝑥) = ∑(−1)^𝑘𝑥^2𝑘/(2𝑘)! from 𝑘=0 to  ∞
+		Write a C program that uses MPI parallelization to compute the value of cos(x) using the above 
+		formula. You need to get the upper value of i and the value of x from the user, where your 
+		program makes the computation by dividing i equally among the processes, it should use n
+		processes to do this computation, where n is provided as input by user. Then, it displays the 
+		computed value of cos(x). You need to display to the user the value of cos(x) and the time taken 
+		by the program to compute it. You need also, to do the sequential version of this computation to 
+		the same accuracy, compute the time you program takes in each case, and compare the time for 
+		parallel version to the one computed in sequential version. Also, you need to discuss the differences 
+		in these times as the number of computing processes changes.
