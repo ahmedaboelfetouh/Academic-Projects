@@ -30,3 +30,18 @@ should start at 2’b00 and return to it after each game over.
 
 4. Digital Design Project 2 : A Verilog implementation for PCI Bus Target and its synthesis (schematic.sch)
 5. Compiler Project : Implementation of a TINY Language Scanner and Parser using C++ with a GUI using QT Widget.
+6. Distributed Systems Assignements : 
+	- Assignement 1 :
+		- we assume that we have a distributed monitoring system that  is used in a mega-city to control traffic in the streets. It consists of a set of 		 sensors, surveillance cameras, electronic traffic signs, in addition to a set of computers each of them is responsible for an 
+		area in the city. It has also a set of servers that collect the requests from the computers and process 
+		them based on a global view of the traffic in the whole city. These servers provide the reply in terms 
+		of a set of recommendations to the computers, where they, in turn, send these recommendations to 
+		the drivers in the streets. The recommendations mainly provide guidelines for the state of the 
+		different streets in the city and the best route for the driver to reach a specific point in the city.
+			- If mobile agents are adopted in this system, indicate the role of the agents in this case, then, 
+			provide a typical usage scenario for the mobile agents to serve the goals of the system.
+			- Use a mobile-agent framework to implement the scenario provided in (i).
+			- Design an Application-Level Protocol (ALP) that models the interaction between the differentnodes in this system.
+			- Implement the ALP at each level of nodes using multi-threaded Java programming.
+	- Assignement 2 : 
+	- Assignement 3 : 
